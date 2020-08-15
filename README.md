@@ -6,7 +6,7 @@ Nesse jogo, n peças são inicialmente dispostas numa mesa ou tabuleiro. Dois jo
 Existe uma estratégia para ganhar o jogo que é muito simples: ela consiste em deixar sempre múltiplos de (m+1) peças ao jogador oponente.
 
 
-Objetivo
+# Objetivo
 
 
 Escrever um programa na linguagem Python, versão 3, que permita a uma "vítima" jogar o NIM contra o computador. O computador, é claro, deverá seguir a estratégia vencedora descrita acima.
@@ -23,7 +23,7 @@ Uma vez iniciado o jogo, a estratégia do computador para ganhar consiste em dei
 Será necessário, então, implementar o Jogo e fazer com que o computador se utilize da estratégia vencedora.
 
 
-O programa deve implementar:
+# O programa deve implementar:
 
 
 •	Uma função computador_escolhe_jogada que recebe, como parâmetros, os números n e m descritos acima e devolve um inteiro correspondente à próxima jogada do computador (ou seja, quantas peças o computador deve retirar do tabuleiro) de acordo com a estratégia vencedora.
@@ -35,7 +35,7 @@ O programa deve implementar:
 •	Uma função partida que não recebe nenhum parâmetro, solicita ao usuário que informe os valores de n e m e inicia o jogo, alternando entre jogadas do computador e do usuário (ou seja, chamadas às duas funções anteriores). A escolha da jogada inicial deve ser feita em função da estratégia vencedora, como dito anteriormente. A cada jogada, deve ser impresso na tela o estado atual do jogo, ou seja, quantas peças foram removidas na última jogada e quantas restam na mesa. Quando a última peça é removida, essa função imprime na tela a mensagem "O computador ganhou!" ou "Você ganhou!" conforme o caso.
 
 
-Campeonatos
+# Campeonatos
 
 
 Como todos sabemos, uma única rodada de um jogo não é suficiente para definir quem é o melhor jogador. Assim, uma vez que a função partida esteja funcionando, você deverá criar uma outra função chamada campeonato. Essa nova função deve realizar três partidas seguidas do jogo e, ao final, mostrar o placar dessas três partidas e indicar o vencedor do campeonato. O placar deve ser impresso na forma
@@ -44,13 +44,13 @@ Como todos sabemos, uma única rodada de um jogo não é suficiente para definir
 Placar: Você ??? X ??? Computador
 
 
-Execução
+# Execução
 
 
 Dado que é possível jogar partidas individuais ou campeonatos, o programa começa solicitando ao usuário que escolha se prefere jogar apenas uma partida (opção 1) ou um campeonato (opção 2).
 
 Veja um exemplo de como deve funcionar o jogo:
-'
+'''
 $ > python3 jogo_nim.py
 
 Bem-vindo ao jogo do NIM! Escolha:
@@ -112,4 +112,4 @@ Fim do jogo! O computador ganhou!
 
 **** Final do campeonato! ****
 
-Placar: Você 0 X 3 Computador'
+Placar: Você 0 X 3 Computador'''
