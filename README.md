@@ -52,7 +52,7 @@ Dado que é possível jogar partidas individuais ou campeonatos, o programa come
 Veja um exemplo de como deve funcionar o jogo:
 
 
-'''
+```
 $ > python3 jogo_nim.py
 
 Bem-vindo ao jogo do NIM! Escolha:
@@ -115,4 +115,4 @@ Fim do jogo! O computador ganhou!
 **** Final do campeonato! ****
 
 Placar: Você 0 X 3 Computador
-'''
+```
