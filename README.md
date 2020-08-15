@@ -50,6 +50,8 @@ Placar: Você ??? X ??? Computador
 Dado que é possível jogar partidas individuais ou campeonatos, o programa começa solicitando ao usuário que escolha se prefere jogar apenas uma partida (opção 1) ou um campeonato (opção 2).
 
 Veja um exemplo de como deve funcionar o jogo:
+
+
 '''
 $ > python3 jogo_nim.py
 
@@ -112,4 +114,5 @@ Fim do jogo! O computador ganhou!
 
 **** Final do campeonato! ****
 
-Placar: Você 0 X 3 Computador'''
+Placar: Você 0 X 3 Computador
+'''
